@@ -5,29 +5,29 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
+    <link rel="icon" href="<?= base_url('assets/') ?>learnit/img/favicon.png" type="image/png">
     <title>Learnify - Belajar Dimana Saja & Kapan Saja!</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>css/bootstrap.css">
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>vendors/linericon/style.css">
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>vendors/lightbox/simpleLightbox.css">
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>vendors/nice-select/css/nice-select.css">
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>vendors/animate-css/animate.css">
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>vendors/popup/magnific-popup.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/css/bootstrap.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/vendors/linericon/style.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/vendors/popup/magnific-popup.css">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>css/style.css">
-    <link rel="stylesheet" href="<?= base_url('assets/') ?>css/responsive.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/css/style.css">
+    <link rel="stylesheet" href="<?= base_url('assets/') ?>learnit/css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.4/dist/sweetalert2.all.min.js"></script>
-    <script src="<?= base_url('assets/') ?>js/jquery-3.3.1.min.js"></script>
-    <script src="<?= base_url('assets/') ?>js/popper.js"></script>
-    <script src="<?= base_url('assets/') ?>js/bootstrap.min.js"></script>
+    <script src="<?= base_url('assets/') ?>learnit/js/jquery-3.3.1.min.js"></script>
+    <script src="<?= base_url('assets/') ?>learnit/js/popper.js"></script>
+    <script src="<?= base_url('assets/') ?>learnit/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.1/lottie.min.js"></script>
-    <script src="<?= base_url('assets/') ?>js/lottie.js"></script>
+    <script src="<?= base_url('assets/') ?>learnit/js/lottie.js"></script>
 </head>
 
 <body style="background-color: #edf2f7">
@@ -54,8 +54,11 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="<?= base_url('welcome') ?>"><img src="<?= base_url('assets/') ?>img/logo.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand logo_h" href="<?= base_url('welcome') ?>"><img
+                            src="<?= base_url('assets/') ?>learnit/img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -63,15 +66,20 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item" id="nav"><a class="nav-link" href="<?= base_url('welcome') ?>">Beranda</a></li>
-                            <li class="nav-item" id="navtentang"><a class="nav-link" href="<?= base_url('welcome/tentang') ?>">Tentang</a>
+                            <li class="nav-item" id="nav"><a class="nav-link"
+                                    href="<?= base_url('welcome') ?>">Beranda</a></li>
+                            <li class="nav-item" id="navtentang"><a class="nav-link"
+                                    href="<?= base_url('welcome/tentang') ?>">Tentang</a>
                             </li>
                             <li class="nav-item submenu dropdown" id="navpelajaran">
-                                <a href="<?= base_url('welcome/pelajaran') ?>" class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Pelajaran</a>
+                                <a href="<?= base_url('welcome/pelajaran') ?>" class="nav-link dropdown-toggle"
+                                    role="button" aria-haspopup="true" aria-expanded="false">Pelajaran</a>
                             </li>
-                            <li class="nav-item" id="navkontak"><a class="nav-link" href="<?= base_url('welcome/kontak') ?>">Kontak</a>
+                            <li class="nav-item" id="navkontak"><a class="nav-link"
+                                    href="<?= base_url('welcome/kontak') ?>">Kontak</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal"
+                                    data-target="#exampleModalCenter">Masuk</a></li>
                         </ul>
                     </div>
                 </div>
@@ -83,7 +91,8 @@
     <!-- Home Banner Area  -->
     <section class="banner_area">
         <div class="banner_inner d-flex align-items-center">
-            <div class="kontak bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background="">
+            <div class="kontak bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
+                data-background="">
             </div>
             <div class="container">
                 <div class="banner_content text-center">
@@ -115,12 +124,14 @@
                 <form action="<?= base_url('user/registration_act') ?>" method="post">
                     <div class="form-group">
                         <label for="nama_lengkap" class="label-font-register">Nama lengkap</label>
-                        <input type="text" autocomplete="off" class="form-control effect-9" name="nama" id="nama_lengkap" value="<?= set_value('nama'); ?>">
+                        <input type="text" autocomplete="off" class="form-control effect-9" name="nama"
+                            id="nama_lengkap" value="<?= set_value('nama'); ?>">
                         <?= form_error('nama', '<small class="text-danger">', '</small>'); ?>
                     </div>
                     <div class="form-group">
                         <label for="email" class="label-font-register">Email</label>
-                        <input type="text" class="form-control" name="email" id="email" value="<?= set_value('email'); ?>">
+                        <input type="text" class="form-control" name="email" id="email"
+                            value="<?= set_value('email'); ?>">
                         <?= form_error('email', '<small class="text-danger">', '</small>'); ?>
                     </div>
                     <div class="form-row">
@@ -136,7 +147,8 @@
                         </div>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input checkbox" type="checkbox" id="defaultCheck1" onchange="document.getElementById('btnsubmit').disabled = !this.checked;">
+                        <input class="form-check-input checkbox" type="checkbox" id="defaultCheck1"
+                            onchange="document.getElementById('btnsubmit').disabled = !this.checked;">
                         <label class=" form-check-label" for="defaultCheck1">
                             Saya setuju dan ingin melanjutkan
                         </label>
@@ -144,7 +156,8 @@
                     <p class="terms">Dengan mendaftar anda menyetujui <i>privasi dan persyaratan ketentuan
                             hukum kami </i>
                         baca selengkapnya <a href="#"> disini</a></p>
-                    <button type="submit" name="submit" id="btnsubmit" disabled class="btn btn-block btn-modal btn-submit">Daftar
+                    <button type="submit" name="submit" id="btnsubmit" disabled
+                        class="btn btn-block btn-modal btn-submit">Daftar
                         Sekarang!</button>
                 </form>
             </div>
@@ -154,14 +167,14 @@
 
     <!-- Start Checkbox Scripts -->
     <script>
-        $('.tab1_btn').prop('disabled', !$('.tab1_chk:checked')
-            .length);
-        $('input[type=checkbox]').click(function() {
-            if ($('.tab1_chk:checkbox:checked').length > 0) {
-                $('.btn-submit').prop('disabled', false);
-            } else {
-                $('.btn-submit').prop('disabled', true);
-            }
-        });
+    $('.tab1_btn').prop('disabled', !$('.tab1_chk:checked')
+        .length);
+    $('input[type=checkbox]').click(function() {
+        if ($('.tab1_chk:checkbox:checked').length > 0) {
+            $('.btn-submit').prop('disabled', false);
+        } else {
+            $('.btn-submit').prop('disabled', true);
+        }
+    });
     </script>
     <!-- End Checkbox Scripts -->
